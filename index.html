@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <h1>Dados<span>ViaCep</span></h1>
+      </div>
+      <div class="area-busca-dados">
+        <input type="text" class="input-buscar-cep js-input-cep" placeholder="Digite um CEP">
+        <button class="btn-buscar-cep js-btn-buscar-cep">Buscar CEP</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="area-busca js-area-buscar">
+    <div class="container2">
+
+      <p class="msg-erro" id="js-error">Preenchar o campo, Por favor!!!</p>
+      <h1></h1>
+      <div class="todos-dados" id="js-dados">
+        <div class="image"><img src="/img/cruz.png" alt=""></div>
+
+        <h2>Dados do CEP</h2>
+        <div class="dados-recebidos">
+          <label for="">Bairro</label>
+          <input type="text" class="dados js-input-bairro" readonly>
+          <label for="">CEP</label>
+          <input type="text" class="dados  js-input-cep-dados" readonly>
+          <label for="">Logradouro</label>
+          <input type="text" class="dados js-input-logradouro" readonly>
+          <label for="">Estado</label>
+          <input type="text" class="dados js-input-estado" readonly>
+        </div>
+        <div class="buttons">
+          <button class="btn btn-salvar js-salvar">Salvar</button>
+          <button class="btn btn-salvar js-limpar">Limpar</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
