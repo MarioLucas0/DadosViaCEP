@@ -103,53 +103,54 @@ header .container .area-busca-dados .btn-buscar-cep:hover {
   margin: 0 auto;
   padding: 0px 1.5rem;
 }
-.area-busca .container2 .todos-dados {
+.area-busca .container2 .area-dados {
   background-color: rgba(52, 54, 65, 0.293);
-  padding: 2rem;
+  padding: 3rem;
   border-radius: 10px;
 }
-.area-busca .container2 .todos-dados .image {
+.area-busca .container2 .area-dados .image {
   cursor: pointer;
   display: flex;
   justify-content: end;
 }
-.area-busca .container2 .todos-dados .image img {
+.area-busca .container2 .area-dados .image img {
   max-width: 35px;
   width: 35px;
 }
-.area-busca .container2 .todos-dados h2 {
+.area-busca .container2 .area-dados h2 {
   color: #485563;
   margin-bottom: 1rem;
   font-size: 2rem;
   margin-top: -3rem;
 }
-.area-busca .container2 .todos-dados .dados-recebidos {
+.area-busca .container2 .area-dados .dados-recebidos {
   display: flex;
   flex-direction: column;
 }
-.area-busca .container2 .todos-dados .dados-recebidos .dados {
+.area-busca .container2 .area-dados .dados-recebidos .dados {
+  max-width: 100%;
   height: 3rem;
   border-radius: 7px;
   width: 60rem;
   margin-bottom: 1rem;
   padding-left: 1rem;
 }
-.area-busca .container2 .todos-dados .dados-recebidos label {
+.area-busca .container2 .area-dados .dados-recebidos label {
   color: #485563;
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
-.area-busca .container2 .todos-dados .buttons {
+.area-busca .container2 .area-dados .buttons {
   display: flex;
   justify-content: space-evenly;
   margin-top: 3rem;
 }
-.area-busca .container2 .todos-dados .buttons .btn {
+.area-busca .container2 .area-dados .buttons .btn {
   padding-inline: 2.5rem;
   padding-block: 0.5rem;
   cursor: pointer;
 }
-.area-busca .container2 .todos-dados .buttons .btn:hover {
+.area-busca .container2 .area-dados .buttons .btn:hover {
   background-color: #485563;
   box-shadow: inset 0 0 0.4rem white;
   color: white;
