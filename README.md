@@ -32,7 +32,7 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 
 ## 🛠️ Projeto no ar
 
-* [Netlify](https://mariolucas0.github.io/DadosViaCEP/)
+* [Netlify](https://dadosviacep.netlify.app/)
  
 ## 🎁 Expressões de gratidão
 
